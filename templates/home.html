@@ -2,18 +2,21 @@
 {% extends "base.html" %}
 
 {% block content %}
-<main>
-  <div class="container">
+<main class="landing-page">
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-12 col-md-6">
+      <div class="col-12 col-md-6 align-self-center left">
         <div>
-          <h1>Finding and reaching voters in the field  has never been easier.</h1>
+          <img src="/static/images/logo-color.svg"/>
+          <h1 class="headline">Finding and reaching voters in the field  has never been easier.</h1>
         </div>
         <div class="contact-info">
+          <span class="twitter"><a href="//www.twitter.com/reach_vote"><ion-icon name="logo-twitter"></ion-icon></a></span>
+          <span class="facebook"><a href="//www.facebook.com/reach_vote"><ion-icon name="logo-facebook"></ion-icon></a></span>
           <span class="email"><a href="mailto:info@reach.vote">info@reach.vote</a></span>
         </div>
       </div>
-      <div class="col-6 col-md-6"></div>
+      <div class="col-12 col-md-6 align-self-center right"></div>
     </div>
   </div>
 </main>
