@@ -1,4 +1,7 @@
-{% extends "base.html" %} {% block content %}
+{% extends "base.html" %}
+
+{% block content %}
+{% include '/components/nav.html' %}
 <main>
   <div class="container">
     <div class="row">
@@ -160,6 +163,7 @@
           force and effect. No waiver of any of these Terms of Use shall be deemed a further or continuing waiver of such term or condition or any other term or condition.</p>
       </div>
     </div>
+    {% include '/components/footer.html' %}
   </div>
 </main>
 {% endblock %}
