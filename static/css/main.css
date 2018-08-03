@@ -8,15 +8,34 @@ h1.headline {
   margin: 3em 0 1.5em;
 }
 
+@media screen and (max-width: 768px) {
+  h1.headline {
+    font-size: 2em;
+  }
+}
+
 .landing-page .split {
   height:100vh;
 }
 .row .left {
   padding: 0 5em;
 }
+
+@media screen and (max-width: 768px) {
+  .row .left {
+    padding: 0 1.5em;
+  }
+}
+
+
 .row .right {
   height: 100%;
   background-color: var(--sky-blue);
+}
+@media screen and (max-width: 768px) {
+  .row .right {
+    display: none;
+  }
 }
 
 .contact-info a {
@@ -35,7 +54,14 @@ h1.headline {
   padding:1em 5em;
   bottom: 0;
   border: none;
+  justify-content: unset;
 }
+@media screen and (max-width: 768px) {
+  .landing-page .legal {
+    padding:1em 1.5em;
+  }
+}
+
 .legal {
   border-top: 1px solid var(--light-blue-grey);
   padding:1.5em 0;
