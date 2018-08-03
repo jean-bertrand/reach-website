@@ -17,3 +17,33 @@
   --pale-grey-four: #fafcfd;
   --light-blue-grey-two: #cbd3e6;
 }
+
+/*typography*/
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.75;
+  margin: 0;
+}
+
+h1 {
+  color:var(--base);
+  font-weight:400;
+}
+h1.title {
+  color: var(--dodger-blue);
+  padding: 1em 0;
+  border-bottom: 1px solid var(--light-blue-grey);
+}
+
+h4 {
+  text-transform: uppercase;
+}
+
+a {
+  color: var(--dodger-blue);
+  font-weight: 500;
+}
+
+li {
+  font-size: 90%;
+}
