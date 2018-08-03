@@ -1,7 +1,7 @@
 from flask import Flask, render_template
 from flask_scss import Scss
 
-app = Flask(__name__)
+app = Flask(__name__, static_url_path='/static')
 
 # SCSS Configuration
 Scss(app, static_dir='static', asset_dir='assets')
