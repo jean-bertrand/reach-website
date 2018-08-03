@@ -14,11 +14,11 @@ def main():
 
 @app.route('/terms-of-use')
 def toc():
-    return render_template('/terms-of-use.html')
+    return render_template('/terms-of-use.html', title='Terms of Use')
 
 @app.route('/privacy-policy')
 def privacy_policy():
-    return render_template('/privacy-policy')
+    return render_template('/privacy-policy.html', title='Privacy Policy')
 
 if __name__ == '__main__':
     app.run(debug=True)
