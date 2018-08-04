@@ -1,0 +1,20 @@
+{% macro render_release(release, from_index=false) %}
+  <div class="release">
+  {% if from_index %}
+    <h2><a href="{{ release|url }}">{{ release.title }}</a></h2>
+  {% else %}
+    <h2>{{ release.title }}</h2>
+  {% endif %}
+  <p class="meta">
+    written by
+    {% if release.twitter_handle %}
+      <a href="https://twitter.com/{{ release.twitter_handle
+        }}">{{ release.author or release.twitter_handle }}</a>
+    {% else %}
+      {{ release.author }}
+    {% endif %}
+    on {{ release.pub_date }}
+  </p>
+  {{ release.body }}
+  </div>
+{% endmacro %}

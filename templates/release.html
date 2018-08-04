@@ -1,0 +1,6 @@
+{% extends "layout.html" %}
+{% from "macros/release-notes.html" import render_release %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block content %}
+  {{ render_release(this) }}
+{% endblock %}

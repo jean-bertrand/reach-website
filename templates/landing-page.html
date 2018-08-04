@@ -1,0 +1,28 @@
+{% extends "layout.html" %} {% block title %}{{ this.title }}{% endblock %} {% block content %}
+<main class="landing-page">
+  <div class="container-fluid">
+    <div class="row split">
+      <div class="col-12 col-md-6 align-self-center left">
+        <div>
+          <img src="{{ '/static/images/logo-color.svg' }}" />
+          <h1 class="headline">{{ this.headline }}</h1>
+        </div>
+        <div class="contact-info align-self-baseline">
+          <a href="{{ this.twitter}}">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+          <a href="{{ this.facebook }}">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+          <a href="mailto:{{ this.email }}">info@reach.vote</a>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 align-self-center right">
+        <img src="reach_iphonex.png" alt="Reach App" />
+      </div>
+    </div>
+  </div>
+  {% include '/components/footer.html' %}
+  </div>
+</main>
+{% endblock %}
