@@ -3,26 +3,26 @@
   <div class="container-fluid">
     <div class="row split">
       <div class="col-12 col-md-6 align-self-center left">
-        <div>
-          <img src="{{ '/static/images/logo-color.svg' }}" />
+        <div class="content">
+          <img class="logo" src="{{ '/static/images/logo-color.svg' }}" />
           <h1 class="headline">{{ this.headline }}</h1>
-        </div>
-        <div class="contact-info align-self-baseline">
-          <a target="_blank" href="{{ this.twitter}}">
-            <ion-icon name="logo-twitter"></ion-icon>
-          </a>
-          <a target="_blank" href="{{ this.facebook }}">
-            <ion-icon name="logo-facebook"></ion-icon>
-          </a>
-          <a href="mailto:{{ this.email }}">info@reach.vote</a>
+          <div class="contact-info align-self-baseline">
+            <a target="_blank" href="{{ this.twitter}}">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            <a target="_blank" href="{{ this.facebook }}">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+            <a href="mailto:{{ this.email }}">info@reach.vote</a>
+          </div>
         </div>
       </div>
       <div class="col-12 col-md-6 align-self-center right">
         <img src="reach_iphonex.png" alt="Reach App" />
       </div>
     </div>
-  </div>
-  {% include '/components/footer.html' %}
+    {% include '/components/footer.html' %}
+
   </div>
 </main>
 {% endblock %}
