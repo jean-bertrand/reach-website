@@ -155,3 +155,39 @@ footer .legal .right p a {
     color: var(--dodger-blue) !important;
   }
 }
+
+.userguide h2,
+.userguide h3,
+.userguide h4,
+.userguide h5 {
+  clear: both;
+  border: none;
+  padding: 0;
+}
+
+.userguide p {
+  clear: right;
+}
+
+.userguide img[title='ios save to home screen'] {
+  width: 30%;
+  float: right;
+  margin-bottom: 25px;
+  margin-left: 25px;
+}
+
+.userguide img[title='android save to home screen'] {
+  width: 30%;
+  float: left;
+  margin-bottom: 25px;
+  margin-right: 25px;
+}
+
+.userguide img[title='ios logo'],
+.userguide img[title='android logo'] {
+  width: 25%;
+  display: inline-block;
+}
+.userguide img[title='android logo'] {
+  padding-bottom: 10px;
+}
