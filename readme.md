@@ -31,5 +31,9 @@ Fields defined in `.ini` model files will be visible and accessible when in Admi
 
 # Deployment
 
-1.  From the root directory run `$ lektor build --output-path [PATH]`. Ideally path should be to a `dist` folder in the root directory.
-2.  Run `$ Surge` from `dist` directory to domain: `reach-marketing.surge.sh`
+Reach.vote uses [Netlify](https://www.netlify.com/) for deployment.
+* Commits to `master` automatically trigger a build and deploy to the production site.
+* Preview PRs with [Netlify deploy preview](https://www.netlify.com/blog/2016/07/20/introducing-deploy-previews-in-netlify/) directly from the pull request in Github.
+
+## Build static site
+To generate a static static site direct, run `$ lektor build --output-path [PATH]` from root directory.
