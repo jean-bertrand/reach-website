@@ -1,55 +1,62 @@
 /*Nav*/
 
-
 /*Landing Page*/
 h1.headline {
   font-size: 2.5em;
   font-weight: 300;
-  margin: 3em 0 1.5em;
+  margin: 20% 0 10%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   h1.headline {
     font-size: 1.5em;
+    margin: 2em auto 0 auto;
+    width: 70%;
+    text-align: center;
+  }
+  .content {
+    padding: 2em 0;
+  }
+  img.logo {
+    margin: 2em auto;
+    display: block;
   }
 }
 
 .landing-page .split {
-  height:100vh;
+  height: 100vh;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .landing-page .split {
-    height: 85vh;
+    height: auto;
   }
 }
 
 .split:after {
-    content: '';
-    height: 100%;
-    width: 50%;
-    background-color: var(--sky-blue);
-    display: block;
-    position:  absolute;
-    top: 0;
-    right: 0;
-    z-index: -1;
+  content: '';
+  height: 100%;
+  width: 50%;
+  background-color: var(--sky-blue);
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
 }
 
-@media screen and (max-width: 768px) {
+footer .split:after {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
   .split:after {
     display: none;
   }
 }
 
 .row .left {
-  padding: 0 5em;
-}
-
-@media screen and (max-width: 768px) {
-  .row .left {
-    padding: 0 1.5em;
-  }
+  padding: 0 5%;
 }
 
 .row .right {
@@ -58,11 +65,6 @@ h1.headline {
 
 .row .right img {
   max-height: 600px;
-}
-@media screen and (max-width: 768px) {
-  .row .right {
-    display: none;
-  }
 }
 
 .contact-info a {
@@ -75,32 +77,56 @@ h1.headline {
   vertical-align: middle;
 }
 
+@media screen and (max-width: 767px) {
+  .contact-info {
+    text-align: center;
+    margin: 2em 0;
+  }
+}
+
 /*Footer*/
 .landing-page .legal {
   position: absolute;
-  padding:1em 5em;
-  padding-right: 0;
-  bottom: 0;
   border: none;
-  justify-content: unset;
-  width: 50%;
+  bottom: 0;
+  height: 50px;
+  text-align: center;
+  width: 100%;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .landing-page .legal {
-    padding:1em 2.5em;
-    padding-right:0;
-    position: relative;
-    width: 100%;
+    position: static;
+    width: auto;
+    height: auto;
+    margin-bottom: 2em;
   }
 }
 
 .legal {
-  border-top: 1px solid var(--light-blue-grey);
-  padding:1.5em 0;
-  margin-top: 1em;
   justify-content: center;
 }
-.legal span {
+.legal p {
+  font-size: 13px;
   display: inline-block;
-  margin-right: 10px;
+}
+
+.legal .right p,
+.legal .right p a {
+  color: #fff;
+}
+
+footer .legal {
+  border-top: 1px solid var(--light-blue-grey);
+}
+
+footer .legal .right p,
+footer .legal .right p a {
+  color: var(--dodger-blue);
+}
+
+@media screen and (max-width: 767px) {
+  .legal .right p,
+  .legal .right p a {
+    color: var(--dodger-blue) !important;
+  }
 }
