@@ -156,10 +156,6 @@ footer .legal .right p a {
   }
 }
 
-.userguide h2 {
-  text-transform: uppercase;
-}
-
 .userguide h2,
 .userguide h3,
 .userguide h4,
@@ -169,6 +165,14 @@ footer .legal .right p a {
   padding: 0;
   text-transform: capitalize;
   color: var(--dodger-blue);
+}
+
+.userguide h2 {
+  text-transform: uppercase;
+}
+
+.userguide h3 {
+  border-bottom: 1px solid var(--light-blue-grey);
 }
 
 .userguide p {
