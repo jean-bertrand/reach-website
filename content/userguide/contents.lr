@@ -18,17 +18,22 @@ version: Version 0.1 Updated 08/05/2018
 ---
 toc:
 
-Table of Contents
-* SETUP/INSTALLATION
-* LOGIN
-* USAGE
-  * Navigation
-  * Voter Search
-  * Voter Profile
-    * Support Scores (a.k.a. “ID”s)
-    * Contact Info
-  * Campaign Picker
-
+## TABLE OF CONTENTS
+<ul>
+<li><a href="#setup">SETUP/INSTALLATION</a></li>
+<li><a href="#login">LOGIN</a></li>
+<li><a href="#usage">USAGE</a></li>
+<ul>
+<li><a href="#nav">Navigation</a></li>
+<li><a href="#search">Voter Search</a></li>
+<li><a href="#profile">Voter Profile</a></li>
+<ul>
+<li><a href="#ids">Support Scores (a.k.a. “ID”s)</a></li>
+<li><a href="#contact">Contact Info</a></li>
+</ul>
+<li><a href="#campaign">Campaign Picker</a></li>
+</ul>
+</ul>
 ---
 body1:
 
@@ -43,7 +48,7 @@ And then tap “Add to Home Screen” from the bottom row.
 
 
 ---
-sectionTitle1: ## SETUP/INSTALLATION
+sectionTitle1: <h2><a name="setup"></a>SETUP/INSTALLATION</h2>
 ---
 sectionBody1:
 
@@ -57,10 +62,11 @@ Once you’re there, the best way to use Reach will be to add a shortcut to your
 
 Now you will have a Reach App icon on your home screen just like a native  app. When you want to use Reach, you can launch it simply by tapping on it.
 
-*Coming soon:* Reach App for iOS and Android in the App Store and Google Play Store. Stay tuned!
-
-![ios logo](/static/images/ioslogo.jpg "ios logo")![android logo](/static/images/androidlogo.png "android logo")
-
+**Coming soon:** Reach App for iOS and Android in the App Store and Google Play Store. Stay tuned!
+<div class="centered">
+<img src="/static/images/ioslogo.jpg" />
+<img src="/static/images/androidlogo.png" />
+</div>
 
 ---
 sectionBody2:
@@ -76,14 +82,14 @@ If you have already been added to one or more campaigns, you’ll find yourself 
 If you haven’t been added to any campaigns yet, you’ll find yourself on the Campaign Picker screen without any campaigns to pick from! This is a sad, lonely existence in Reach so it’s time for you to hit up your friends who are already using Reach on the campaign of your favorite local progressive hero and ask them to add you. They’ll need your phone number, but once they’ve worked their magic you will be able to click the refresh button on your screen to see your shiny new campaign appear. Select it using the button on the left and click the back arrow to get to the Voter Search screen for that campaign.
 
 ---
-sectionTitle2: ## LOGIN
+sectionTitle2: <h2><a name="login"></a>LOGIN</h2>
 ---
 sectionBody3:
 
-### Navigation 
+<h3><a name="nav"></a>Navigation</h3>
 At the bottom of most screens, you will see a tab-bar with buttons to help you get around in Reach. Each button will bring you to a different section of the app. You know how tabs work.
 
-### Voter Search 
+<h3><a name="search"></a>Voter Search</h3>
 The heart of Reach is the Voter Search screen. This is the main event and it is why you’re here. When you encounter a potential voter in the field, type whatever information you have about them into the single search field and press the big blue search button. It sounds simple because it is. You can search their name, their address, their city, their zip code, or any combination of those things. When your search completes (don’t blink - it’s fast), you’ll get a list of the results. You can use the “Sort” button under the search field to sort the list by name, address or relevance.
  
 You can even search the database for an address with no name at all. Then you can see all the registered voters in a building or on that street and sort by address. Try it on your own building or street now!
@@ -92,15 +98,15 @@ If you volunteer for more than one campaign, keep an eye on the top left corner 
 
 On the top right, you can tap the user icon to see your profile and, if you want, log out of Reach (not that you’d have any reason to do that).
 
-### Voter Profile 
+<h3><a name="profile"></a>Voter Profile</h3>
 Tap on a search result to open the Voter Profile and see that voter’s details. Reach will show you all the information we have on the voter. Our data comes from your state’s Board of Elections so if you wish there was more data here, maybe move to a better state. If a voter’s party affiliation or district matters for your election, keep an eye out for that. 
 
-#### Support Scores (a.k.a. “ID”s)
+<h4><a name="ids"></a>Support Scores (a.k.a. “ID”s)</h4>
 You can mark a voter’s candidate support score right there on their profile! Follow the guidance from the campaign on how to determine a voter’s proper support score, but based on your interaction with them, mark them on a scale of 1 to 5, with 1 being strong support for your candidate and 5 being strong support for your opponent, The color-code above the buttons should help you remember. Green is good. Red is bad. *Note that this is not to be interpreted as a value judgement on DSA or strawberries.
 
 If you change your mind, you can always tap another number. You can also re-tap the number you currently have selected to clear out their support score.
 
-#### Contact Info
+<h4><a name="contact"></a>Contact Info</h4>
 At the bottom of the voter profile is the Contact Information section. Get those digits! You can enter a cell phone number and an email address for every voter you meet. Once you’ve typed a valid entry into the fields provided, just click ‘Submit” to save them. If you need to remove a saved bit of contact info, trash it with the cute trash button. 
 
 
@@ -117,11 +123,11 @@ Any member of a campaign can add new users to that campaign. This is how we spre
 If you do choose to leave a campaign, you will still have a Reach account, but you will need to be re-added to the campaign or to another campaign to continue having any fun.
 
 ---
-sectionTitle3: ## Usage
+sectionTitle3: <h2><a name="usage"></a>USAGE</h2>
 ---
 sectionTitle4:
 
-##Campaign Picker
+<h3><a name="campaign"></a>Campaign Picker</h3>
 
 ---
 sectionTitle5:

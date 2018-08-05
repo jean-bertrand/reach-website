@@ -163,6 +163,16 @@ footer .legal .right p a {
   clear: both;
   border: none;
   padding: 0;
+  text-transform: capitalize;
+  color: var(--dodger-blue);
+}
+
+.userguide h2 {
+  text-transform: uppercase;
+}
+
+.userguide h3 {
+  border-bottom: 1px solid var(--light-blue-grey);
 }
 
 .userguide p {
@@ -183,11 +193,21 @@ footer .legal .right p a {
   margin-right: 25px;
 }
 
-.userguide img[title='ios logo'],
-.userguide img[title='android logo'] {
-  width: 25%;
+.userguide .centered {
+  text-align: center;
+}
+
+.userguide .centered img {
+  height: 60px;
   display: inline-block;
 }
-.userguide img[title='android logo'] {
-  padding-bottom: 10px;
+
+.userguide .centered img:nth-child(2) {
+  margin-left: 50px;
+}
+
+@media screen and (max-width: 450px) {
+  .userguide .centered img:nth-child(2) {
+    margin-left: 0px;
+  }
 }
