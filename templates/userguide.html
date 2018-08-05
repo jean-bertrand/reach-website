@@ -1,0 +1,22 @@
+{% extends "layout.html" %} {% block title %}{{ this.title }}{% endblock %} {% block content %} {% include '/components/nav.html' %}
+<main>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1 class="title">{{ this.title }}</h1>
+      </div>
+    </div>
+    <div class="row content">
+      <div class="col userguide">
+        {{ this.version }} {{ this.introduction }} {{ this.sectionTitle1 }} {{ this.sectionBody1 }} {{ this.sectionTitle2 }} {{ this.sectionBody2 }} {{ this.sectionTitle3 }} {{ this.sectionBody3 }} {{ this.sectionTitle4 }} {{ this.sectionBody4 }} {{ this.sectionTitle5
+        }}
+      </div>
+    </div>
+  </div>
+</main>
+<footer>
+  <div class="container">
+    {% include 'components/footer.html' %}
+  </div>
+  </div>
+  {% endblock %}
