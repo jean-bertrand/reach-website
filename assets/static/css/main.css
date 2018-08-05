@@ -203,6 +203,11 @@ footer .legal .right p a {
 }
 
 .userguide .centered img:nth-child(2) {
-  padding: 3px 0px;
   margin-left: 50px;
+}
+
+@media screen and (max-width: 450px) {
+  .userguide .centered img:nth-child(2) {
+    margin-left: 0px;
+  }
 }
